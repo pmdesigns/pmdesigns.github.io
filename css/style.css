@@ -14,8 +14,8 @@ body {
   overflow: hidden;
   position:relative;
   top:80px;
-bottom: 50px;
-border-radius:10px;
+  bottom: 50px;
+  border-radius:30px;
 }
 
 h3 { font-weight: 300;
