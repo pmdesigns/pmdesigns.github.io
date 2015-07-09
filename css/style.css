@@ -1,0 +1,21 @@
+body { 
+  font-family: Open sans, San-serif;
+  background-color: #8FBC8F;
+  color: #FFFFF0;
+}
+
+.topbar {
+  width:300px;
+  height: 150px;
+  background-color:#E9967A;
+  margin: auto;
+  padding: 4em;
+  text-align:center;
+  overflow: hidden;
+  position:relative;
+  top:80px;
+bottom: 50px;
+}
+
+h3 { font-weight: 300;
+}
