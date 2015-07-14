@@ -59,4 +59,9 @@ li {
   font-weight: 300;
 }
 
+.arrow {
+  display: inline;
+  margin: auto;
+  position: center;
+}
 
