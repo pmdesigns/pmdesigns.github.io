@@ -1,0 +1,53 @@
+body {
+	font-family: 'Open sans', Sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.topnav {
+  width: 980px;
+  height: 90px;
+  padding: 2em;
+  margin: auto;
+  
+ }
+
+.mainnav {
+
+	  font-weight: 700;
+	  float:right;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    float: left;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    padding: 0.2em 0.6em;
+}
+
+a:hover  {
+	cursor: auto;
+    color: red;
+    border-bottom: 1em;
+	border-bottom-color: red;
+}
+
+a:active {
+	color:red;
+	
+}
+
+li {
+    display: inline-block;
+}
+
+
+h1 {}
+#slogan {
+	font-style: italic;
+}
+
