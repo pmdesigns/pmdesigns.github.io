@@ -51,9 +51,12 @@ li {
 }
 
 
-h1 {}
-#slogan {
-  font-style: italic;
+#intro {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-weight: 300;
 }
 
 
