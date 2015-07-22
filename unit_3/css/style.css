@@ -60,8 +60,7 @@ li {
 }
 
 .arrow {
-  display: inline;
-  margin: auto;
-  position: center;
+   display: inline-block;
+ 
 }
 
