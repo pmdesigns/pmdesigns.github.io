@@ -9,6 +9,7 @@ html,body {
   background-size: cover;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 
 }
 .wrapper {
@@ -86,6 +87,7 @@ b {
   
 }
 .work {
+
   background: white;
   color: #D97077;
   width: 100%;
@@ -93,6 +95,7 @@ b {
   height: 700px;
   
 }
+
 
 .work img {
   text-align: center;
@@ -102,7 +105,7 @@ b {
 }
 
 .columnl {
-  width: 50%;
+  width: 45%;
   float: left;
   display: inline;
   font-size: 3em;
@@ -110,13 +113,13 @@ b {
   
 }
 .columnr {
-  width: 50%;
+  width: 45%;
   float: left;
   text-align: center;
   
 }
 .columnr img {
-
+float: left;
 }
 
 .arrow {
