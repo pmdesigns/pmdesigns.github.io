@@ -125,3 +125,29 @@ nav a:hover {
 	padding: 10em;
 	float: left;
 }
+
+#travelogues {
+	width: 100%;
+	background-color: white;
+	height: 550px;
+
+}
+
+#travelogues img {
+	float: left;
+	width: 50%;
+}
+.traveloguesright {
+	width: 50%;
+	float: right;
+
+}
+.traveloguesright h2 {
+ 	text-align: center;
+ 	padding: 100px;
+ 	margin: auto;
+ 	font-size: 2em;
+	letter-spacing: 5px;
+	color: black;
+	font-weight: 700;
+}
