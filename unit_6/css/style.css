@@ -15,7 +15,6 @@ nav a {
 	display: block;
 	float: left;
 }
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -25,8 +24,13 @@ nav a {
   font-size: 0;
 }
 
+
 #home {
 	width: 100%;
-	background-image: url(http://pmdesigns.github.io/unit_6/images/sunset.jpg);
+	height: 700px;
+	background-image: url(http://pmdesigns.github.io/unit_6/images/sunsethome.jpg);
+	  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
 }
