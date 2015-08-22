@@ -106,4 +106,10 @@ nav a:hover {
 .sarahround {
 	padding-left: 100px;
 	padding-top: 80px;
+
+}
+
+.balitemple {
+	float: right;
+	overflow: hidden;
 }
