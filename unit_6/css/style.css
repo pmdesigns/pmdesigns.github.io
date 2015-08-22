@@ -11,7 +11,8 @@ header {
 .logo {
 	padding: 2em;
 	float: left;
-	padding-right: 600px;
+	padding-right: 540px;
+	
 }
 .logo img:hover {
 	opacity: 0.6;
@@ -20,7 +21,7 @@ nav a {
 	padding: 20px;
 	color: white;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 	float: left;
 	padding-top: 106px;
 	font-weight: 700;
@@ -71,7 +72,8 @@ nav a:hover {
 .wrapperintro {
 	width: 100%;
 	background-color: black;
-		height: 510px;
+		height: 460px;
+		border-bottom: 60px solid #003333;
 	
 }
 .introabout{ 
@@ -100,13 +102,26 @@ nav a:hover {
 
 .wrapperintro2 {
 	width: 50%;
-	float: right;
+	float:right;
 }
 
 
 .balitemple {
+	padding: 1em;
 	float: right;
-	width: 80%;
-	padding-top: 20px;
-	    z-index: -1;
+	width: 90%;
+	clear: both;
+
+
+}
+.balitemple:hover
+{
+  opacity: 0.6;
+}
+
+.divder1 {
+	background-color: #003333;
+	height: 100px;
+	padding: 10em;
+	float: left;
 }
