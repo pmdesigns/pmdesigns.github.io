@@ -26,9 +26,9 @@ nav a {
 }
 
 #home {
-	background-image: url(images/Bali.sunset.jpg);
+	background-image: url(images/sunset.jpg);
 	  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  	background-attachment: fixed;
+  	background-position: center;
+ 	background-size: cover;
 }
