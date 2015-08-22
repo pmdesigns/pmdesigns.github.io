@@ -151,3 +151,9 @@ nav a:hover {
 	color: black;
 	font-weight: 700;
 }
+.traveloguesright p {
+	color: black;
+	margin: auto;
+	width: 50%;
+	line-height: 30px;
+	}
