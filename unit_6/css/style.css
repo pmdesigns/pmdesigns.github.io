@@ -76,7 +76,7 @@ nav a:hover {
 	height: 510px;
 	background-color: black;
 	float: left;
-
+	color: white;
 
 
 }
@@ -87,4 +87,11 @@ nav a:hover {
 	letter-spacing: 5px;
 	color: white;
 	font-weight: 700;
+}
+
+.introabout p {
+	color: white;
+	padding-left: 4em;
+	padding-right: 3em;
+	line-height: 30px;
 }
