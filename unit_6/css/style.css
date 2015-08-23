@@ -8,6 +8,7 @@ header {
 	
 }
 
+
 .logo {
 	padding: 2em;
 	float: left;
@@ -58,8 +59,9 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     font-weight: 300;
+
+    }
     
-}
 #home:hover {
     opacity: 1.0;
 }
@@ -138,6 +140,7 @@ nav a:hover {
 	float: left;
 	width: 50%;
 }
+
 
 #travelogues img:hover {
 opacity: 0.6;
@@ -262,6 +265,7 @@ opacity: 0.6;
 	height: 500px;
 	float: left;
 
+
 }
 
 .contactcontent {
@@ -311,13 +315,28 @@ opacity: 0.6;
 	border: none;
 	float: left;
 	padding-top: 100px;
-	text-align: center;
+	text-align: left;
+
+
 }
 
-.contactbox p {
-	text-align: center;
-	margin: auto;
-	line-height: 2em;
+footer {
+	background-color: black;
+	float: left;
+	height: 50px;
+	color: white;
+	width: 100%;
+
+}
+footer p {
+	padding: 1em;
+		text-align: center;
+	font-weight: 300;
+	font-size: 0.9em;
 }
 
+footer a:link {
+	text-decoration: none;
+	color: white;
+}
 
