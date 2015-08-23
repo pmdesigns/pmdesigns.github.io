@@ -311,11 +311,13 @@ opacity: 0.6;
 	border: none;
 	float: left;
 	padding-top: 100px;
+	text-align: center;
 }
 
-
-.contactbox:visited, .contactbox:active,     .submitbutton:visited,     .submitbutton:active {
+.contactbox p {
+	text-align: center;
+	margin: auto;
+	line-height: 2em;
 }
-
 
 
