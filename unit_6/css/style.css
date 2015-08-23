@@ -335,7 +335,7 @@ footer p {
 	font-size: 0.9em;
 }
 
-footer a:link {
+footer a:link, a:visited, a:hover {
 	text-decoration: none;
 	color: white;
 }
