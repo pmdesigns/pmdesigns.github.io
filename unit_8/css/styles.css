@@ -1,6 +1,6 @@
 * { margin: 0; padding: 0; }
 
-body {
+html, body{
   font-family: 'Open sans', Sans-serif;
   font-size: 16px;
   background-color: black;
@@ -10,14 +10,28 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  overflow-x: hidden;
-  width: 100%;
+  text-align: left;
+}
+
+sidebar p{
+	text-align: left;
+	  font-size: .4em;
+
+}
+
+
+h1 {
+	font-weight: 300;
 }
 
 .logo:hover {
   opacity:0.6;
 }
 
+.logo {
+	margin: 2.5%;
+	float: left;
+}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -25,33 +39,40 @@ body {
   clear: both;
   height: 0;
   font-size: 0;
+  overflow: auto;
 }
 
 header {
   background: #D97077;
-  position: fixed;
   margin: auto;
   width: 100%;
   opacity: 0.9;
 }
 
+
+
+
+
 nav {
   float: right;
   padding: 2em;
-  margin-right: 10em; /* Need to change to % */
+  display: inline;
+  margin-top: 2.5%;
 }
 
 nav a{
+	float: left;
     font-weight: 700;
     text-decoration: none;
     color: white;
     padding: 1em;
-    display: inline-block;
 }
 
-/*need to determine how much*/
-span {
-	height: 2em;
+.arrow {
+	margin: auto;
+	width: 100%;
+	padding: 3em;
+	float: left;
 }
 a:hover  {
   cursor: auto;
@@ -68,52 +89,88 @@ b {
   color: #D97077;
 }
 
+.wrapper {
+	padding: 3em;
+	font-size: 3em;
+}
+
+#home {
+	color: white;
+	width: 100%;
+	height: 700px;
+	margin: auto;
+    font-weight: 300;
+}
+
 #work img {
   text-align: center;
   margin: auto;
   display: inline;
-  padding-right: 1em;
-  width: 45%;
 }
 
 #work {
   background: white;
   color: #D97077;
   width: 100%;
-/* need to change? */
   margin: auto;
+  margin-top: 5%;
   height: 500px;
   }
 
-/* need to change */
 sidebar {
-  width: 45%;
   float: left;
   display: inline;
   font-size: 3em;
-  margin-top: 15%;
+  margin: 10%;
   text-align: center;
+  width: 30%;
 }
 
 
-.arrow:hover
+.arrow:hover{
     opacity:0.6;
-
 }
+
+
+#contact {
+	background-color: #D97077;
+  color: white;
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  float: left;
+  }
+
+  #contact h1 {
+  	text-align: center;
+  	font-size: 4em;
+  	margin: auto;
+  	padding: 2.5em;
+  }
 
 /*need to change? */
 footer {
   font-weight: 200;
   font-size: 1em;
-  background: #D97077;
   text-align: center;
   padding: 2em;
-  margin: auto;
+  margin: 5%;
+  height: 3em;
+  padding-bottom: 2em;
+
 
 
 }
+span {
+	height: 2em;
+	visibility: hidden;
+  display: block;
+  content: " ";
+}
+
 footer a {
-  padding: 1em;
+  padding: 2em;
+  margin: auto;
   
 }
 
@@ -121,13 +178,14 @@ footer a {
 @media screen and (device-width: 768px) and (deviceheight:
 1024px) and (-webkit-device-pixel-ratio: 1) {
 	
-	body {
+	body, html {
 	float: none;
 	width: auto;
-	font-size: ;
+	font-size: 12px;
 	}
 	h1 {
 		text-align: center;
+		margin: auto;
 	}
 	nav a {
 		display: block;
@@ -140,10 +198,10 @@ footer a {
 @media screen and (device-width: 320px) and
 (device-height: 568px) and (-webkit-device-pixel-ratio:
 2) {
-	body {
+	body, html {
 	float: none;
 	width: auto;
-	font-size: ;
+	font-size: 10px;
 	}
 	h1 {
 		text-align: center;
