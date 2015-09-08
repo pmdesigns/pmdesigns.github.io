@@ -176,7 +176,7 @@ footer a {
 }
 
 @media (max-width: 800px) { 
-* {width: 47%; height: auto; display: inline; margin: 1%; text-align: center; b {font-size:12em;}}
+* {width: 47%; height: auto; display: inline; margin: 1%; text-align: center; body {font-size:12em;}}
 }
 
 @media (max-width: 480px) {
