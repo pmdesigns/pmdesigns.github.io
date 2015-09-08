@@ -179,6 +179,7 @@ footer a {
 	nav a {
 		text-align: center;
 		float: left;
+		display: block;
 	}
 	
 }
@@ -187,6 +188,11 @@ footer a {
  	ul {list-style-type: none; text-align: center; margin: 0 0 }
 
 	.img {width: 100%; float: left; margin: 50px 0;}
+		nav a {
+		text-align: center;
+		float: left;
+		display: block;
+	}
 	body {
 		font-size: 6px;
 }
