@@ -176,7 +176,7 @@ footer a {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
  * {width: 47%; height: auto; display: inline; margin: 1%;}
 	.logo {width: 40%;}
 }
