@@ -175,13 +175,7 @@ footer a {
 }
 
 @media (max-width: 800px) { 
-
-nav {
-  float:left;
-  padding: 2em;
-  display: block;
-  margin: auto;
-}
+.img, nav {width: 47%; height: auto; display: inline; margin: 1%;}
 	
 }
 
