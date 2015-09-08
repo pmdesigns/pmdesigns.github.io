@@ -188,12 +188,13 @@ body {
 		}
 
 	#home h1 {
-			font-size: 140%;
+			font-size: 50%;
 		}
 
 		#about, #contact, footer {
 			float: none;
 			width: 100%;
+			font-size: 50%;
 		}
 
 		nav {
