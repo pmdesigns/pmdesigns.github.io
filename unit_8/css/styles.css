@@ -174,42 +174,12 @@ footer a {
   
 }
 
-/*ipad mini*/
-@media screen and (device-width: 768px) and (deviceheight:
-1024px) and (-webkit-device-pixel-ratio: 1) {
-	
-	body, html {
-	float: none;
-	width: auto;
-	font-size: 12px;
-	}
-	h1 {
-		text-align: center;
-		margin: auto;
-	}
-	nav a {
-		display: block;
-		text-align: center;
-		margin: 0;
-	}
+@media (max-width: 800px) { 
+	.img {width: 47%; height: auto; display: inline; float: right; margin: 1%;}
 }
 
-/*iphone 5*/
-@media screen and (device-width: 320px) and
-(device-height: 568px) and (-webkit-device-pixel-ratio:
-2) {
-	body, html {
-	float: none;
-	width: auto;
-	font-size: 10px;
-	}
-	h1 {
-		text-align: center;
-	}
-	nav a {
-		display: block;
-		text-align: center;
-		margin: 0;
-	}
+@media (max-width: 480px) {
+ 	ul {list-style-type: none; text-align: center; margin: 0 0 }
 
+	.img {width: 100%; float: left; margin: 50px 0;}
 }
