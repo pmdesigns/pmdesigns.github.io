@@ -176,8 +176,8 @@ footer a {
 }
 
 @media (max-width: 800px) { 
-.img, nav {width: 47%; height: auto; display: inline; margin: 1%;}
-	.logo {width: 40%;}
+nav {width: 47%; height: auto; display: inline; margin: 1%;}
+	.logo {width: 25%;}
 }
 
 @media (max-width: 480px) {
