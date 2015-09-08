@@ -176,11 +176,12 @@ footer a {
 
 @media (max-width: 800px) { 
 
-	nav a {
-		text-align: center;
-		float: left;
-		display: block;
-	}
+nav {
+  float:left;
+  padding: 2em;
+  display: block;
+  margin: auto;
+}
 	
 }
 
