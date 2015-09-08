@@ -176,6 +176,28 @@ footer a {
 }
 
 
-@media (max-width: 380px) {
-sidebar, nav, .logo {width: 48%; height: auto; display: inline; margin: 1%; float: left;}
+@media (max-width: 480px) {
+body {
+			width: 400px;
+		}
+
+		header {
+			
+			height: 93px;
+			position: relative;
+		}
+
+	#home h1 {
+			font-size: 140%;
+		}
+
+		#about, #contact, footer {
+			float: none;
+			width: 100%;
+		}
+
+		nav {
+			float:none;
+			width: auto;
+		}
 }
