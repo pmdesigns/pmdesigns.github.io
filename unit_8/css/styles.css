@@ -177,6 +177,5 @@ footer a {
 
 
 @media (max-width: 380px) {
- * {width: 47%; height: auto; display: inline; margin: 1%;}
-	.logo {width: 40%;}
+sidebar, nav, .logo {width: 51%; height: auto; display: inline; margin: 1%;}
 }
