@@ -54,10 +54,10 @@ header {
 
 
 nav {
+	  display: block;
   float: right;
-  padding: 2em;
-  display: inline;
-  margin-top: 2.5%;
+  padding: 10px;
+
 }
 
 nav a{
