@@ -175,10 +175,9 @@ footer a {
 }
 
 @media (max-width: 800px) { 
-	.img {width: 47%; height: auto; display: inline; float: right; margin: 1%;}
+
 	nav a {
 		text-align: center;
-		font-size: .4em;
 	}
 	
 }
