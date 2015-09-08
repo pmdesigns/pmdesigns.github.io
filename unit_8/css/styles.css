@@ -178,6 +178,8 @@ footer a {
 
 	nav a {
 		text-align: center;
+		padding: 0;
+		float: none;
 	}
 	
 }
