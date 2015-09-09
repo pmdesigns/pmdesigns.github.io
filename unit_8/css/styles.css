@@ -185,8 +185,11 @@ footer a {
 		font-size: 2em;
 		letter-spacing: .1em;
 	}
-	.nav {
-	display: hidden;
+	nav {
+float: none;
+		text-align: center;
+		display: block;
+		margin: 0;
 	}
 	#home {
 		padding: 5%;
