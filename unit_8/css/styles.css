@@ -185,7 +185,7 @@ footer a {
 		font-size: 2em;
 		letter-spacing: .1em;
 	}
-	nav, nav a {
+	nav, nav a, .logo {
 		float: none;
 		text-align: center;
 		display: block;
