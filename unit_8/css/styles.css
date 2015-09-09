@@ -176,7 +176,7 @@ footer a {
 }
 
 
-@media (max-width: 800px) { 
+@media (max-width: 00px) { 
 	
 	body {
 		font-size: 10px;
@@ -200,12 +200,10 @@ footer a {
 	sidebar {
 		float: none;
 		width: 100%;
-	}
-	sidebar
- {
-	margin: .3% 0;
+		margin: 0;
 	text-align: center;
 	padding: 10%;
-	
+	display: block;
 	}
+
 }
