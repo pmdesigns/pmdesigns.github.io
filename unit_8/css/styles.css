@@ -186,7 +186,7 @@ footer a {
 		letter-spacing: .1em;
 	}
 	.nav {
-	display: none;
+	display: hidden;
 	}
 	#home {
 		padding: 5%;
