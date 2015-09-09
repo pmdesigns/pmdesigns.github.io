@@ -176,29 +176,30 @@ footer a {
 }
 
 
-@media (max-width: 480px) {
-body {
-			width: 400px;
-		}
-
-		header {
-			
-			height: 93px;
-			position: relative;
-		}
-
-	#home h1 {
-			font-size: 50%;
-		}
-
-		#about, #contact, footer {
-			float: none;
-			width: 100%;
-			font-size: 50%;
-		}
-
-		nav {
-			float:none;
-			width: auto;
-		}
+@media (max-width: 800px) { 
+	h1 {
+		font-size: 2em;
+		letter-spacing: .1em;
+	}
+	.nav {
+		float: none;
+		text-align: center;
+		display: block;
+		margin: 0;
+	}
+	#home {
+		padding: 5%;
+		height: auto;
+	}
+	sidebar {
+		float: none;
+		width: 100%;
+	}
+	sidebar
+ {
+	margin: .3% 0;
+	text-align: center;
+	padding: 20% 20%;
+	
+	}
 }
