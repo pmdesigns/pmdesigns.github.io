@@ -200,7 +200,7 @@ footer a {
 	sidebar {
 		float: none;
 		width: 100%;
-		margin: 0;
+		margin: .3% 0;
 	text-align: center;
 	padding: 10%;
 	display: block;
